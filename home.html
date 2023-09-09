@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale:1.0">
+        <title>Coffee Website</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <!--This is the HERO SECTION-->
+        <div class="hero-container">
+            <!-- This is the NAV BAR-->
+            <nav>
+                <ul class="nav-bar-ul">
+                    <li><a href="#" class="home-link">Home</a></li>
+                    <li><a href="#" >About Us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li> <a href="#"> Pricing</a></li>
+                    <li> <a href="#"> Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="hero-text">
+                <h2> Coffee Makes Mood</h2>
+                <strong> "Indulge in Every Sip: Experience the Richness of Coffee"<button class="explore-btn" id="explore-btn" onclick="explore()"> EXPLORE</button></strong>
+            <img src="images/coffeeimage.png" alt="coffee" class="coffee-image">
+            </div>
+        </div>
+
+        <!--DISCOVER SECTION-->
+        <div class="discover">
+            <img src="./images/coffee2.png" alt="discover coffee section">
+
+            <div class="discover-text">
+                <h3> Discover Coffee Borcelle</h3>
+                <h5>Elevating Your Coffee Experience</h5>
+
+                <p>
+                  At Coffee Borcelle, we're on a mission to redefine your cofee <br>
+                  moments. Our carefully curated selection of premium beans,<br>
+                  sourced from the world's most renowned coffee regions.
+                  <br>
+                </p>
+                <p>
+                  With expert craftsmanship and a commitment to quality.<br>
+                  Join us in savoring the art of coffee, one cup at a time.
+                </p>
+             <button class="discover-btn"> Read More</button>
+            </div>
+        </div>
+
+
+
+        <!-- REVIEW SECTION-->
+        <div class="review-container">
+            <h3> Reviews<ion-icon name="book"></ion-icon></h3>
+            <p class="p-review"> What other people are saying!</p>
+
+            <!--REVIEW GRID-->
+            <div class="review-grid">
+                <div class="grid">
+                    <p>
+                    "Indulge in the sublime experience of <br>
+                    Coffee Borcelle, where every sip is a <br>
+                    journey to flavour paradise. Crafted with<br>
+                    precision, our rich bleds ignite the senses <br>
+                    and redefine coffee appreciation."
+                    </p>
+                    <i><a href="#">@elonmusk</a></i>
+                </div>
+
+                <div class="grid">
+                    <p>
+                    "Discover a world of taste with Coffee<br>
+                    Borcelle. Each cup is a masterpiece,<br>
+                    blending aromas and flavours that<br> dance on your palate. Join
+                    us in <br> celebrating coffee at its finest. "
+                    </p>
+                    <i><a href="#">@jeffbezos</a></i>
+                </div>
+
+                <div class="grid">
+                    <p>
+                   "Welcome to the heart and soul of coffee <br>
+                   passion - Coffee Borcelle. Our carefully<br>
+                   curated beans are an ode to <br>
+                   craftsmanship, brewing a story of <br>
+                   perfection in every cup."
+                    </p>
+                    <i><a href="#">@MrBeast</a></i>
+                </div>
+
+            </div>
+
+            <div class="box-1"></div>
+            <div class="box-2"></div>
+
+         
+        </div>
+
+        <footer class="footer">
+            <div class="contact-form">
+                <h3> Email Us<ion-icon name="mail" class="call"></ion-icon></h3>
+                <p><i> Send Us a Message</i></p>
+
+                <input type="text" placeholder="Full Name" required class="contact-text">
+                <input type="email" placeholder="Your Email" required class="contact-email">
+                <textarea name="message" id="message" placeholder="Your Message" cols="105%" rows="8" required></textarea> 
+
+                <button class="submit-btn" id="submit-btn"> Submit</button>
+            </div>
+
+            <div class="sitemap">
+                <h3> Sitemap<ion-icon name="globe"></ion-icon></h3>
+                <p><i> All our pages</i></p>
+
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Feature</li>
+                    <li>Pricing</li>
+                    <li>Contact Us</li>
+                </ul>
+            
+                <h3> Call Centre</h3>
+                <p>(08) 480 2000</p>
+                <p> coffeecode@gmail.com</p>
+            </div>
+            
+            <img src="images/iced coffee.png" alt="iced coffee" class="iced-coffee">
+        </footer>
+
+        <div class="footer-bottom">
+            <p class="copyright">
+                &copy; 2023 Coffee Borcelle. All Rights Reserved By <a href="#" class="copyright-link">Reina</a>
+            </p>
+            <ul class="footer-bottom-list">
+                <li>
+                  <a href="#" class="footer-bottom-link has-before">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-bottom-link has-before">Terms & Condition</a>
+                </li>
+      
+              </ul>
+        </div>
+
+  <!-- - #BACK TO TOP-->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- CUSTOM JS LINK-->
+        <script src="home.js"></script>
+
+   <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>
