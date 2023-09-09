@@ -157,8 +157,19 @@ nav{
 }
 
 .discover img{
-    margin-top: 180px;
-    margin-left: 100px;
+    margin-top: 130px;
+    margin-left: 90px;
+    transform: translate(10%, 10%);
+    animation: myfirst 1.5s infinite linear;
+}
+
+@keyframes myfirst {
+    0%{
+        transform: translate(10%, 10%) rotate(0deg);
+    }
+    100%{
+        transform: translate(10%, 10%) rotate(360deg);
+    }
 }
 
 .discover-text{
